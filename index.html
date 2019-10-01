@@ -10,33 +10,8 @@
 </head>
 <body>
 
-<!-- <div class="wrapper">
-  <div class="cube">
-    <b class="front">front</b>
-    <b class="back">back</b>
-    <b class="top">top</b>
-    <b class="bottom">bottom</b>
-    <b class="left">left</b>
-    <b class="right">right</b>
-    <i class="front"></i>
-    <i class="back"></i>
-    <i class="top"></i>
-    <i class="bottom"></i>
-    <i class="left"></i>
-    <i class="right"></i>
-  </div>
-</div> -->
 
-<div class="wrap">
-	<div class="cube">
-		<div class="front">front</div>
-		<div class="back">back</div>
-		<div class="top">top</div>
-		<div class="bottom">bottom</div>
-		<div class="left">left</div>
-		<div class="right">right</div>
-	</div>
-</div>
+
 
     <div class="container text-center">
         <div class="row">
@@ -46,7 +21,7 @@
         </div>
 
         <div class="row mx-auto">
-        <div class="col">
+        <div class="col mx-auto">
             <h1>Roll dice! </h1>
         </div>
         </div>
@@ -63,16 +38,20 @@
         <div class="row" id="unsortedDice"></div>
             <div class="col"></div>
 
-        <div id="sortPath" mx-auto>*insert cubes*</div>
+        <div id="sortPath"><div class="wrap">
+	        <div class="cube">
+                <div class="front">front</div>
+                <div class="back">back</div>
+                <div class="top">top</div>
+                <div class="bottom">bottom</div>
+                <div class="left">left</div>
+                <div class="right">right</div>
+	        </div>
+        </div>
+        </div>
             <div class="col"> <h2>Dice Sorting Pathway</h2>
                 <ul class="sortPath"></ul>
             </div>
-
-            <h2>Roll die: <input id="amount" type="text" value="6" /><button id="roll">Roll</button>
-            <button id="sort">Shake</button></h2>
-            <div class="dice unshaken"></div>
-            <h2>Select Sort Log:</h2>
-            <ul class="solution-log"></ul>
     </div>
 
 
