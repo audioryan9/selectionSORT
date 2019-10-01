@@ -9,28 +9,48 @@
 
 </head>
 <body>
-    <div class="container mx-auto">
+    <div class="container text-center">
         <div class="row">
+            <div class="col">
             <h1>Knight/Mclean Algorithms</h1>
         </div>
-
-        <div class="row mx-auto">
-            <h1>Roll dice! </h1>
         </div>
 
         <div class="row mx-auto">
+        <div class="col">
+            <h1>Roll dice! </h1>
+        </div>
+        </div>
+
+        <div class="row mx-auto">
+        <div class="col">
+
             <input type="text" name="dicevalue" id="diceAmount">
-            <button id="roll">Roll</button>
-            <button id="sort">Sort</button>
+            <button class="btn btn-warning" id="roll">Roll</button>
+            <button class="btn btn-warning" id="sort">Sort</button>
+        </div>
         </div>
 
         <div class="row" id="unsortedDice"></div>
             <div class="col"></div>
 
-        <div class="row"id="sortPath"></div>
-            <div class="col"> <h2>Dice Sorting Pathway</h2> </div>
+        <div id="sortPath" mx-auto>*insert cubes*</div>
+            <div class="col"> <h2>Dice Sorting Pathway</h2>
+                <ul class="sortPath"></ul>
+            </div>
 
 
+
+    <div class="wrap">
+	    <div class="cube">
+		<div class="front">front</div>
+		<div class="back">back</div>
+		<div class="top">top</div>
+		<div class="bottom">bottom</div>
+		<div class="left">left</div>
+		<div class="right">right</div>
+	</div>
+</div>
 
 
 
